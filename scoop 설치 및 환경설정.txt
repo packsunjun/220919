@@ -1,0 +1,31 @@
+﻿>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+>$env:SCOOP='C:\Scoop'
+>irm get.scoop.sh -outfile 'install.ps1' 
+>iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+>cd C:\Scoop\
+>scoop install aria2
+>scoop install git
+
+환경변수 설정
+Scoop
+C:\Scoop
+
+>dir
+>scoop bucket add extras
+>scoop install vscode
+
+C:\Scoop\apps\vscode\current\install-context.reg 더블클릭
+마우스 우측 버튼 vscode 메뉴 추가
+
+>scoop install nodejs-lts
+>node -v
+
+>scoop install touch
+
+npm i -g typescript
+tsc -v
+
+ref)
+https://github.com/ScoopInstaller/Install#readme
+
+list > tab (애밋)
